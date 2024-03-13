@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(foto5.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Dancing Script", cursive;
+}
+
+header {
+    font-family: "Dancing Script", cursive;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 12%;
+    justify-content: space-between;
+
+
+}
+
+.navbar img {
+    height: 60px;
+    transition: 1s;
+    
+}
+
+.nav-logo {
+    width: 80%;
+}
+.logo img{
+    width: 70%;
+    cursor: pointer;
+    transition: 2s;
+}
+.logo img:hover{
+    transform: rotateY(360deg);
+}
+i{
+    color: #ffffff;
+    margin: 20px;
+}
+.nav {
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    justify-content: space-between;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin: 100px;
+     margin-top: 100px;
+}
+
+.right {
+   width: 50%;
+    
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 100px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: rgb(11, 11, 201);
+    margin-top: 50px;
+    font-size: 12px;
+    border: 0;
+    color: #ffffff;
+
+}
+.cards{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width:25%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 20px 30px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.card1 {
+    background-image: url(foto1.jpg);
+}
+
+.card2 {
+    background-image: url(foto2.webp);
+}
+
+.card3 {
+    background-image: url(foto3.jpg);
+}
+
+.card4 {
+    background-image: url(foto4.webp);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 8px;
+}
